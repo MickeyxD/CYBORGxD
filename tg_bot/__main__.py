@@ -1,9 +1,3 @@
-"""#TODO
-
-Dank-del
-2020-12-29
-"""
-
 import importlib
 import re
 import threading
