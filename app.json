@@ -1,0 +1,195 @@
+{
+      "name": "CYBORG ROBOT",
+      "description": "Telegram group management bot.",
+      "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
+      "keywords": [
+         "telegram",
+         "anime",
+         "group",
+         "manager",
+         "CYBORG"
+      ],   
+   "repository": "https://github.com/HYPER-OP/CYBORGxD/",
+   "addons": [
+      {
+         "options": {
+            "version": "12"
+         },
+         "plan": "heroku-postgresql"
+      }
+   ],
+   "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    },
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+    }
+  ],  
+   "env": {
+      "log": {
+         "description": "Your bot token. Get one from @BotFather duh",
+         "required": true,
+         "value": "True"
+      },
+      "API_ID": {
+         "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "14829442"
+      },
+      "API_HASH": {
+         "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
+         "required": true,
+         "value": "83a64e6ef3bf6e8805e046117f73b537"
+      },    
+      "SQLALCHEMY_DATABASE_URI": {
+         "description": "Your postgres sql db, empty this field if you dont have one.",
+         "required": false,
+         "value": "sqldbtype://username:pw@hostname:port/db_name"
+      },      
+      "OWNER_ID": {
+         "description": "Your user ID as an integer.",
+         "required": true,
+         "value": "5189341836"
+      },
+      "BOT_ID": {
+         "description": "Your bot ID.. Use any other bot to get it.",
+         "required": true,
+         "value": "5063193725"
+      },
+      "HEROKU_API_KEY": {
+        "description": "Your Heroku API key, get it from 'https://dashboard.heroku.com/account'",
+        "value": ""
+      },
+      "HEROKU_APP_NAME": {
+        "description": "Enter the Heroku app name here (Must an exact same name with your input above).",
+        "required": false
+      },
+      "OWNER_USERNAME": {
+         "description": "Your username without the @",
+         "value": "ITS_KING_HYPER"
+      },
+      "MESSAGE_DUMP": {
+         "description": "LOGGER ID",
+         "required": true,
+         "value": ""
+      },
+      "GBAN_LOGS": {
+         "description": "LOGGER ID",
+         "required": true,
+         "value": ""
+      },
+      "SYS_ADMIN": {
+         "description": "LEAVE IT BLANK",
+         "required": false
+     },
+     "LOAD": {
+         "description": "LEAVE IT BLANK'",
+         "required": true,
+         "value": "True"
+      },
+      "SPB_MODE": {
+         "description": "LEAVE IT BLANK",
+         "required": true,
+         "value": ""
+      },      
+      "CASH_API_KEY": {
+         "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
+         "required": true,
+         "value": "-xyz"
+      },
+      "TIME_API_KEY": {
+         "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
+         "required": true,
+         "value": "-xyz"
+      },
+      "INFO_PIC": {
+        "description": "SET THIS AS TRUE",
+        "value": "True",
+        "required": true
+      },
+      "CERT_PATH": {
+         "description": "LEAVE IT AS IT IS",
+         "required": true,
+         "value": "None"
+      },
+      "spamwatch_api": {
+         "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
+         "required": false,
+         "value": ""
+      }, 
+      "STRICT_GBAN": {
+         "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
+         "value": "True"
+      },
+      "CUSTOM_CMD": {
+         "description": "SET THIS AS False",
+         "required": true,
+         "value": "False"
+      },
+      "SPAMMERS": {
+         "description": "INPUT SPAMMERS ID",
+         "required": false,
+         "value": ""
+      },
+      "LASTFM_API_KEY": {
+         "description": "https://www.last.fm/api/account/create",
+         "required": false,
+         "value": ""
+      },
+      "CF_API_KEY": {
+         "description": "coffehouse.intellivoid.net",
+         "required": false,
+         "value": ""
+      },
+      "WEBHOOK": {
+         "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
+         "required": false,
+         "value": ""
+      },
+      "PORT": {
+         "description": "Port to use for your webhooks. Better leave this as it is on heroku",
+         "required": true,
+         "value": "5000"
+      },
+      "URL": {
+         "description": "The Heroku App URL :-  https://<appname>.herokuapp.com/",
+         "required": false,
+         "value": ""
+      },
+      "NO_LOAD": {
+         "description": "Dont load these modules cause they shit, space separation",
+         "required": true,
+         "value": "rss"
+      },
+      "ALLOW_EXCL": {
+         "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
+         "value": "True"
+      },
+      "BOT_API_URL": {
+         "description": "https://api.telegram.org/bot",
+         "required": false,
+         "value": ""
+      },
+      "DEL_CMDS": {
+         "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
+         "value": "True"
+      },
+      "BOT_API_FILE_URL": {
+      "description": "https://api.telegram.org/file/bot",
+         "required": false,
+         "value": ""
+   },      
+      "BAN_STICKER": {
+         "description": "ID of the sticker you want to use when banning people.",
+         "required": false,
+         "value": ""
+      },
+      "WALL_API": {
+         "description": "Required for wallpaper. Get your's from https://wall.alphacoders.com/",
+         "required": false,
+         "value": ""
+      }
+      
+   }
+}
