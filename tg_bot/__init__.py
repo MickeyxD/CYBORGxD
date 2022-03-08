@@ -46,7 +46,7 @@ parser = ConfigParser()
 parser.read("config.ini")
 kigconfig = parser["kigconfig"]
 
-class CYBORGINIT:
+class CyborgINIT:
     def __init__(self, parser: ConfigParser):
         self.parser = parser
         self.SYS_ADMIN: int = self.parser.getint('SYS_ADMIN', 0)
@@ -101,47 +101,47 @@ class CYBORGINIT:
                 return sw
 
 
-KInit = CYBORGINIT(parser=kigconfig)
+CInit = CyborgINIT(parser=kigconfig)
 
-SYS_ADMIN = KInit.SYS_ADMIN
-OWNER_ID = KInit.OWNER_ID
-OWNER_USERNAME = KInit.OWNER_USERNAME
-APP_ID = KInit.APP_ID
-API_HASH = KInit.API_HASH
-WEBHOOK = KInit.WEBHOOK
-URL = KInit.URL
-CERT_PATH = KInit.CERT_PATH
-PORT = KInit.PORT
-INFOPIC = KInit.INFOPIC
-DEL_CMDS = KInit.DEL_CMDS
-ALLOW_EXCL = KInit.ALLOW_EXCL
-CUSTOM_CMD = KInit.CUSTOM_CMD
-BAN_STICKER = KInit.BAN_STICKER
-TOKEN = KInit.TOKEN
-DB_URI = KInit.DB_URI
-LOAD = KInit.LOAD
-MESSAGE_DUMP = KInit.MESSAGE_DUMP
-GBAN_LOGS = KInit.GBAN_LOGS
-NO_LOAD = KInit.NO_LOAD
+SYS_ADMIN = CInit.SYS_ADMIN
+OWNER_ID = CInit.OWNER_ID
+OWNER_USERNAME = CInit.OWNER_USERNAME
+APP_ID = CInit.APP_ID
+API_HASH = CInit.API_HASH
+WEBHOOK = CInit.WEBHOOK
+URL = CInit.URL
+CERT_PATH = CInit.CERT_PATH
+PORT = CInit.PORT
+INFOPIC = CInit.INFOPIC
+DEL_CMDS = CInit.DEL_CMDS
+ALLOW_EXCL = CInit.ALLOW_EXCL
+CUSTOM_CMD = CInit.CUSTOM_CMD
+BAN_STICKER = CInit.BAN_STICKER
+TOKEN = CInit.TOKEN
+DB_URI = CInit.DB_URI
+LOAD = CInit.LOAD
+MESSAGE_DUMP = CInit.MESSAGE_DUMP
+GBAN_LOGS = CInit.GBAN_LOGS
+NO_LOAD = CInit.NO_LOAD
 SUDO_USERS = [OWNER_ID] + get_user_list("sudos")
 DEV_USERS = [OWNER_ID] + get_user_list("devs")
 SUPPORT_USERS = get_user_list("supports")
 SARDEGNA_USERS = get_user_list("sardegnas")
 WHITELIST_USERS = get_user_list("whitelists")
 SPAMMERS = get_user_list("spammers")
-spamwatch_api = KInit.spamwatch_api
-CASH_API_KEY = KInit.CASH_API_KEY
-TIME_API_KEY = KInit.TIME_API_KEY
-WALL_API = KInit.WALL_API
-LASTFM_API_KEY = KInit.LASTFM_API_KEY
-CF_API_KEY = KInit.CF_API_KEY
+spamwatch_api = CInit.spamwatch_api
+CASH_API_KEY = CInit.CASH_API_KEY
+TIME_API_KEY = CInit.TIME_API_KEY
+WALL_API = CInit.WALL_API
+LASTFM_API_KEY = CInit.LASTFM_API_KEY
+CF_API_KEY = CInit.CF_API_KEY
 
 # SpamWatch
-sw = KInit.init_sw()
+sw = CInit.init_sw()
 
 from tg_bot.modules.sql import SESSION
 
-if not KInit.DROP_UPDATES:
+if not CInit.DROP_UPDATES:
     updater = tg.Updater(token=TOKEN, base_url=KInit.BOT_API_URL, base_file_url=KInit.BOT_API_FILE_URL, workers=min(32, os.cpu_count() + 4), request_kwargs={"read_timeout": 10, "connect_timeout": 10}, persistence=PostgresPersistence(session=SESSION))
     
 else:
