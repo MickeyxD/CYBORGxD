@@ -28,7 +28,7 @@
   ],  
    "env": {
       "log": {
-         "description": "Your bot token. Get one from @BotFather duh",
+         "description": "LEAVE IT BLANK",
          "required": true,
          "value": "True"
       },
@@ -85,13 +85,13 @@
      },
      "LOAD": {
          "description": "LEAVE IT BLANK'",
-         "required": true,
-         "value": "True"
+         "required": false,
+         "value": ""
       },
       "SPB_MODE": {
          "description": "LEAVE IT BLANK",
          "required": true,
-         "value": ""
+         "value": "True"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
@@ -145,7 +145,7 @@
       "WEBHOOK": {
          "description": "Setting this to ANYTHING will enable webhooks. If you dont know how this works leave it as it is",
          "required": false,
-         "value": ""
+         "value": "False"
       },
       "PORT": {
          "description": "Port to use for your webhooks. Better leave this as it is on heroku",
@@ -183,6 +183,11 @@
       "BAN_STICKER": {
          "description": "ID of the sticker you want to use when banning people.",
          "required": false,
+         "value": ""
+      },
+            "TOKENI": {
+         "description": "BOT TOKEN. GET IT FROM @BOTFATHER",
+         "required": true,
          "value": ""
       },
       "WALL_API": {
