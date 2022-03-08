@@ -43,22 +43,14 @@ The Support group can be reached out to at [ʙɪᴏɴɪᴄ sᴜᴘᴘᴏʀᴛ](h
 *Enjoy!*
 
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Eagle Union](https://t.me/YorktownEagleUnion)  
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Bionic Support](https://t.me/BIONIC_SUPPORT)  
 
 ## Credits
 The bot is based of on the original work done by [PaulSonOfLars](https://github.com/PaulSonOfLars)
 This repo was just reamped to suit an Anime-centric community. All original credits go to Paul and his dedication, Without his efforts, this fork would not have been possible!
 
 
-Should any be missing kindly let us know at [Eagle Union](https://t.me/YorktownEagleUnion) or simply submit a pull request on the readme.
+Should any be missing kindly let us know at [Bionic Support](https://t.me/BIONIC_SUPPORT) or simply submit a pull request on the readme.
 
 
--------------------------------------------------------------------------------------
-
-
-<a href="http://u.fsf.org/16e"><img src="https://static.fsf.org/nosvn/images/badges/fsfs_icons_red-bg.png" alt="Free Software, Free Society"></a>   
-
-*CYBORG is free and open source software and supports the right to read, distribute and repair.*
-
-
-![Alt](https://repobeats.axiom.co/api/embed/d2897eb81239aab92e1394b6d833b19c8dbac24c.svg "Repobeats analytics image")
+------------------------------------------------------------------------------------
