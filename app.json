@@ -1,7 +1,7 @@
 {
       "name": "CYBORG ROBOT",
       "description": "Telegram group management bot.",
-      "logo": "",
+      "logo": "https://telegra.ph/file/8f6b24120aab8490dca45.jpg",
       "keywords": [
          "telegram",
          "anime",
@@ -9,23 +9,6 @@
          "manager",
          "CYBORG"
       ],   
-   "repository": "https://github.com/HYPER-OP/CYBORGxD/",
-   "addons": [
-      {
-         "options": {
-            "version": "12"
-         },
-         "plan": "heroku-postgresql"
-      }
-   ],
-   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-    }
-  ],  
    "env": {
       "log": {
          "description": "LEAVE IT BLANK",
