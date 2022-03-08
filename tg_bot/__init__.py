@@ -31,9 +31,9 @@ fileConfig('logging.ini')
 #print(flag)
 log = logging.getLogger('[Enterprise]')
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
-log.info("[CYBORG] CYBORG is starting. | An Eagle Union Project. | Licensed under GPLv3.")
+log.info("[CYBORG] CYBORG is starting. | A BIONIC ROBOTS PROJECT | Licensed under GPLv3.")
 log.info("[CYBORG] Not affiliated to Azur Lane or Yostar in any way whatsoever.")
-log.info("[CYBORG] Project maintained by: github.com/Dank-del (t.me/dank_as_fuck)")
+log.info("[CYBORG] Project maintained by: HYPERxD")
 
 # if version < 3.6, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 7:
