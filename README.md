@@ -14,7 +14,7 @@
 ![Repository Size](https://img.shields.io/github/repo-size/HYPER-OP/CYBORGxD?style=for-the-badge&logo=appveyor)</br>
 
 
-[![Join Support!](https://img.shields.io/badge/Support%20Chat-ʙɪᴏɴɪᴄ sᴜᴘᴘɪʀᴛ)](https://t.me/BIONIC_SUPPORT)
+[![Join Support!](https://img.shields.io/badge/Support%20Chat-BIONIC_SUPPORT)](https://t.me/BIONIC_SUPPORT)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cfb691a93a064d9ea753ef2b5fccf797)](https://www.codacy.com/manual/HYPER-OP/CYBORGxD?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=HYPER-OP/CYBORGxD&amp;utm_campaign=Badge_Grade)
 
 
