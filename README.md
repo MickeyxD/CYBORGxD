@@ -14,17 +14,17 @@
 ![Repository Size](https://img.shields.io/github/repo-size/HYPER-OP/CYBORGxD?style=for-the-badge&logo=appveyor)</br>
 
 
-[![Join Support!](https://img.shields.io/badge/Support%20Chat-EagleUnion-red)](https://t.me/YorktownEagleUnion)
+[![Join Support!](https://img.shields.io/badge/Support%20Chat-ʙɪᴏɴɪᴄ sᴜᴘᴘɪʀᴛ)](https://t.me/BIONIC_SUPPORT)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/cfb691a93a064d9ea753ef2b5fccf797)](https://www.codacy.com/manual/HYPER-OP/CYBORGxD?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=HYPER-OP/CYBORGxD&amp;utm_campaign=Badge_Grade)
 
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
-Originally a marie fork - Kigyō has evolved further and was built to be more useful for Anime Chats.
+Originally a marie fork - CYBORG has evolved further and was built to be more useful for Anime Chats.
 
-Can be found on telegram as [Kigyō](https://t.me/kigyorobot).
+Can be found on telegram as [CYBORG](https://t.me/CYBORG_ROBOT).
 
-The Support group can be reached out to at [Eagle Union](https://t.me/YorktownEagleUnion), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available.
+The Support group can be reached out to at [ʙɪᴏɴɪᴄ sᴜᴘᴘᴏʀᴛ](https://t.me/BIONIC_SUPPORT), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available.
 
 
 
